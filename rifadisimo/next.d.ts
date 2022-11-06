@@ -4,7 +4,7 @@ import type {
   NextLayoutComponentType,
 } from "next";
 import type { AppProps } from "next/app";
-
+import type { Session } from "next-auth";
 declare module "next" {
   type NextLayoutComponentType<P = {}> = NextComponentType<
     NextPageContext,
@@ -18,5 +18,6 @@ declare module "next" {
 declare module "next/app" {
   type AppLayoutProps<P = {}> = AppProps & {
     Component: NextLayoutComponentType;
+    session?: Session;
   };
 }

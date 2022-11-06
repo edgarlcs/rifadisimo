@@ -144,7 +144,21 @@
   "resolved" "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   "version" "0.0.29"
 
-"@types/node@18.7.23":
+"@types/next-auth@^3.15.0":
+  "integrity" "sha512-ZVfejlu81YiIRX1m0iKAfvZ3nK7K9EyZWhNARNKsFop8kNAgEvMnlKpTpwN59xkK2OhyWLagPuiDAVBYSO9jSA=="
+  "resolved" "https://registry.npmjs.org/@types/next-auth/-/next-auth-3.15.0.tgz"
+  "version" "3.15.0"
+  dependencies:
+    "next-auth" "*"
+
+"@types/next@^9.0.0":
+  "integrity" "sha512-gnBXM8rP1mnCgT1uE2z8SnpFTKRWReJlhbZLZkOLq/CH1ifvTNwjIVtXvsywTy1dwVklf+y/MB0Eh6FOa94yrg=="
+  "resolved" "https://registry.npmjs.org/@types/next/-/next-9.0.0.tgz"
+  "version" "9.0.0"
+  dependencies:
+    "next" "*"
+
+"@types/node@^18.7.23":
   "integrity" "sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-18.7.23.tgz"
   "version" "18.7.23"
@@ -1406,10 +1420,10 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next-auth@^4.15.0":
-  "integrity" "sha512-IasNzGLM2VlmyioDdZaRwBBBm8b5xo+zbbqVWHFh0bY6iQUZ3vuudrsdHNdxkXV3LSHdKNaoWEpYr4BydB7mCw=="
-  "resolved" "https://registry.npmjs.org/next-auth/-/next-auth-4.15.0.tgz"
-  "version" "4.15.0"
+"next-auth@*", "next-auth@^4.16.2":
+  "integrity" "sha512-ZSb9omFv4hJT9Rm2OUAuUxCCBwpQnvQRXdcFHk7WIyt7Ud4O6NcNKH0fRTelFl30ycvr3Mc5PdnAt+zdr07nQw=="
+  "resolved" "https://registry.npmjs.org/next-auth/-/next-auth-4.16.2.tgz"
+  "version" "4.16.2"
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@panva/hkdf" "^1.0.1"
@@ -1421,7 +1435,7 @@
     "preact-render-to-string" "^5.1.19"
     "uuid" "^8.3.2"
 
-"next@^12.2.5", "next@12.3.1":
+"next@*", "next@^12.2.5 || ^13", "next@12.3.1":
   "integrity" "sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.1.tgz"
   "version" "12.3.1"
