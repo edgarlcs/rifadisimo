@@ -6,10 +6,10 @@ import { Controls, Player } from "@lottiefiles/react-lottie-player";
 import { Hct } from "@material/material-color-utilities";
 
 // Simple demonstration of HCT.
-const color = Hct.fromInt(0xff4285f4);
-console.log(`Hue: ${color.hue}`);
-console.log(`Chrome: ${color.chroma}`);
-console.log(`Tone: ${color.tone}`);
+// const color = Hct.fromInt(0xff4285f4);
+// console.log(`Hue: ${color.hue}`);
+// console.log(`Chrome: ${color.chroma}`);
+// console.log(`Tone: ${color.tone}`);
 const Register = () => {
   const ref = useRef(null);
   useEffect(() => {
