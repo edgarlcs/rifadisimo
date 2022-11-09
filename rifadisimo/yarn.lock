@@ -1420,10 +1420,10 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next-auth@*", "next-auth@^4.16.2":
-  "integrity" "sha512-ZSb9omFv4hJT9Rm2OUAuUxCCBwpQnvQRXdcFHk7WIyt7Ud4O6NcNKH0fRTelFl30ycvr3Mc5PdnAt+zdr07nQw=="
-  "resolved" "https://registry.npmjs.org/next-auth/-/next-auth-4.16.2.tgz"
-  "version" "4.16.2"
+"next-auth@*", "next-auth@4.15.1":
+  "integrity" "sha512-yB/cSEqslaXAsLZ3lvkJbB7bRR5JeZvfUXSw0CmWeP+TaMZWB85fG9PWdfBeFrDCLBsoyATw9FF6fzApE0SxSw=="
+  "resolved" "https://registry.npmjs.org/next-auth/-/next-auth-4.15.1.tgz"
+  "version" "4.15.1"
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@panva/hkdf" "^1.0.1"
